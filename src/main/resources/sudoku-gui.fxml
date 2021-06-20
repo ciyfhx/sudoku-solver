@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="contentGridPane" alignment="center" hgap="4.0" prefHeight="635.0" prefWidth="692.0" style="-fx-background-color: black;" stylesheets="@sudoku.css" vgap="4.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ciyfhx.sudoku.controller.SudokuGUIController">
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+        <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+        <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+    </columnConstraints>
+    <children>
+<!--        <fx:include fx:id="grid1" source="sudoku-single-grid.fxml" GridPane.columnIndex="0" GridPane.rowIndex="0" />-->
+<!--        <fx:include fx:id="grid2" source="sudoku-single-grid.fxml" GridPane.columnIndex="1" GridPane.rowIndex="0" />-->
+<!--        <fx:include fx:id="grid3" source="sudoku-single-grid.fxml" GridPane.columnIndex="2" GridPane.rowIndex="0" />-->
+<!--        <fx:include fx:id="grid4" source="sudoku-single-grid.fxml" GridPane.columnIndex="0" GridPane.rowIndex="1" />-->
+<!--        <fx:include fx:id="grid5" source="sudoku-single-grid.fxml" GridPane.columnIndex="0" GridPane.rowIndex="2" />-->
+<!--        <fx:include fx:id="grid6" source="sudoku-single-grid.fxml" GridPane.columnIndex="1" GridPane.rowIndex="1" />-->
+<!--        <fx:include fx:id="grid7" source="sudoku-single-grid.fxml" GridPane.columnIndex="1" GridPane.rowIndex="2" />-->
+<!--        <fx:include fx:id="grid8" source="sudoku-single-grid.fxml" GridPane.columnIndex="2" GridPane.rowIndex="1" />-->
+<!--        <fx:include fx:id="grid9" source="sudoku-single-grid.fxml" GridPane.columnIndex="2" GridPane.rowIndex="2" />-->
+    </children>
+</GridPane>

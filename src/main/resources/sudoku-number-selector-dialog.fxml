@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane stylesheets="@sudoku.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <GridPane alignment="CENTER" prefHeight="400.0" prefWidth="600.0" >
+         <columnConstraints>
+            <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" percentWidth="33.3" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" percentHeight="33.3" prefHeight="30.0" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="cell1" alignment="CENTER" styleClass="sudoku-cell" text="1" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+            <Label fx:id="cell2" alignment="CENTER" styleClass="sudoku-cell" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+            <Label fx:id="cell3" alignment="CENTER" styleClass="sudoku-cell" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+            <Label fx:id="cell4" alignment="CENTER" styleClass="sudoku-cell" text="4" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Label fx:id="cell7" alignment="CENTER" styleClass="sudoku-cell" text="7" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label fx:id="cell5" alignment="CENTER" styleClass="sudoku-cell" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Label fx:id="cell8" alignment="CENTER" styleClass="sudoku-cell" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label fx:id="cell6" alignment="CENTER" styleClass="sudoku-cell" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Label fx:id="cell9" alignment="CENTER" styleClass="sudoku-cell" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:id="okButtonType" text="OK" buttonData="OK_DONE"/>
+      <ButtonType text="Cancel" buttonData="CANCEL_CLOSE"/>
+   </buttonTypes>
+
+</DialogPane>

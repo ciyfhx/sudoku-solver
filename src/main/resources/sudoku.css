@@ -1,0 +1,23 @@
+.sudoku-cell.selected {
+    -fx-background-color: #ff7a7a;
+}
+
+.sudoku-cell.fixed {
+    -fx-background-color: lightgray;
+}
+
+.sudoku-cell:hover{
+    -fx-background-color: lightgoldenrodyellow;
+}
+
+.sudoku-cell {
+    -fx-background-color: white;
+    /*-fx-font-family: "Corbel Light";*/
+    -fx-font-size: 40px;
+    -fx-font-weight: bolder;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    /*-fx-border-radius: 2px;*/
+    -fx-max-height: 1000px;
+    -fx-max-width: 1000px;
+}
